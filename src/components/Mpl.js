@@ -21,7 +21,7 @@ class MPL extends Component {
                             <em>{username}</em>
                         </span>
                         <br />
-                        <span class="description">
+                        <span className="description">
                             <em>{description}</em>
                         </span>
                     </div>
