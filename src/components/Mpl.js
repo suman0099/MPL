@@ -14,7 +14,7 @@ class MPL extends Component {
     render() {
         const { username, cash, referralCode, description } = this.state;
         return (
-            <div class="page">
+            <div className="page">
                 <div className="topSection">
                     <div className="userDetails">
                         <span className="username">
@@ -29,21 +29,21 @@ class MPL extends Component {
                         <div className="cash">
                             <em>Get FREE Cash</em>
                             <br />
-                            <span class="reward">₹{cash}</span>
+                            <span className="reward">₹{cash}</span>
                         </div>
                         <div className="referral">
                             Use Referral Code <br />
                             <span className="referralCode">{referralCode}</span>
                         </div>
-                        <img class="batsman" src={fan1} alt="fan1" />
+                        <img className="batsman" src={fan1} alt="fan1" />
                     </div>
                 </div>
 
                 <div className="bottomSection">
-                    <div class="ribbon">
+                    <div className="ribbon">
                         Install the MPL App & Get 20 MPL Tokens Free!
                     </div>
-                    <div class="button">
+                    <div className="button">
                         <button>
                             <img src={buttonImg} />
                         </button>
